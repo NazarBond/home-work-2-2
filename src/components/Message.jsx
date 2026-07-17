@@ -1,5 +1,5 @@
-function Greeting({ name }) {
-  return <h1>Привіт, {name}!</h1>;
+function Message({ text }) {
+  return <p>{text}</p>;
 }
 
-export default Greeting;
+export default Message;
